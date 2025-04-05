@@ -1,0 +1,27 @@
+{
+  "name": "authen-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "authen-backend": "file:",
+    "class-variance-authority": "^0.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lucide-react": "^0.479.0",
+    "oracledb": "^6.8.0",
+    "pg": "^8.14.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.12"
+  }
+}
