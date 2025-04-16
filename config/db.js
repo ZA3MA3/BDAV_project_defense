@@ -24,6 +24,7 @@ const pool = new Pool({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   database: process.env.DB_NAME,
+  max: 999999999999999,
 });
 
 async function getConnection() {

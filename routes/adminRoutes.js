@@ -5,6 +5,7 @@ const { getConnection , pool } = require('../config/db');
 
 router.post('/add-student', async (req, res) => {
   const { userNumber, name, email, password, projectId } = req.body;
+  
  
   // Validate required fields
   if (!userNumber || !name || !email || !password) {
